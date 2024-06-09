@@ -1,0 +1,177 @@
+/* Styling for each of the project pages: MentorMatcher, TealEvents, etc. */
+html {
+    background-color: white;
+}
+
+h1, h2 {
+    font-family: 'Caudex', serif;
+}
+
+.title {
+    font-size: 76px;
+    position: relative;
+    top: 150px;
+}
+
+.name {
+    position: relative;
+    top: 120px;
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h4, a {
+    text-align: left;
+}
+
+p, ul, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-small {
+    display: none;
+}
+
+.cutcurb {
+    max-width: 50%;
+}
+
+#lifeg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    .main {
+        margin-left: 100px;
+        margin-right: 100px;
+    } 
+}
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        margin-left: 60px;
+        margin-right: 60px;
+    } 
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .info {
+        font-size: 0.98rem;
+    }
+    .me {
+        top: -40px;
+    }
+    .twin-img, .twin-img2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vert-twin {
+        margin-bottom: 60px;
+    }
+
+    .twin-left {
+        margin-bottom: 60px;
+        width: auto;
+        height: auto;
+    }
+    .arrow {
+        display: none;
+    }
+    .phone {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #hero-big {
+        display: none;
+    }
+    #hero-small {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.project-img {
+    width: 600px;
+}
+
+.title {
+    top: 50px;
+    margin-bottom: 100px;
+}
+
+.single-img {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+.outline {
+    filter: drop-shadow(2px 3px 1px #c9c9c9);
+    border-radius: 4px;
+}
+
+.twin-img {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.quad {
+    width: 200px;
+}
+
+.phone {
+    width: 340px;
+}
+
+.arrow {
+    height: 50px;
+    position: relative;
+    top: 300px;
+}
+
+.vert-twin {
+    width: 400px;
+}
+
+.twin-img2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twin-left {
+    height: 400px;
+}
+
+.twin-right {
+    width: 200px;
+}
+.caption {
+    font-size: 0.9rem;
+    color: #4e4e4e;
+    margin-bottom: 40px;
+    text-align: center;
+}

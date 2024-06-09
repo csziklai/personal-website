@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Work from "./pages/Work";
+import AboutMe from "./pages/AboutMe";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import MentorMatcher from './pages/MentorMatcher';
+import TealEvents from './pages/TealEvents';
+import AclaraONE from './pages/AclaraONE';
+import Lifegame from './pages/Lifegame';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Work" element={<Work />} />
+          <Route path="/Lifegame" element={<Lifegame />} />
+          <Route path="/MentorMatcher" element={<MentorMatcher />} />
+          <Route path="/TealEvents" element={<TealEvents />} />
+          <Route path="/AclaraONE" element={<AclaraONE />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
