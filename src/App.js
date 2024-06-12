@@ -9,6 +9,9 @@ import MentorMatcher from './pages/MentorMatcher';
 import TealEvents from './pages/TealEvents';
 import AclaraONE from './pages/AclaraONE';
 import Lifegame from './pages/Lifegame';
+import Interpreter from './pages/Interpreter';
+import RISCV from './pages/RISC-V';
+import Farming from './pages/Farming';
 
 function App() {
   return (
@@ -17,12 +20,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Work" element={<Work />} />
-          <Route path="/Lifegame" element={<Lifegame />} />
-          <Route path="/MentorMatcher" element={<MentorMatcher />} />
-          <Route path="/TealEvents" element={<TealEvents />} />
-          <Route path="/AclaraONE" element={<AclaraONE />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/lifegame" element={<Lifegame />} />
+          <Route path="/interpreter" element={<Interpreter />} />
+          <Route path="/riscv" element={<RISCV />} />
+          <Route path="/mentor-matcher" element={<MentorMatcher />} />
+          <Route path="/tealevents" element={<TealEvents />} />
+          <Route path="/aclaraone" element={<AclaraONE />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/farming" element={<Farming />} />
         </Routes>
         <Footer />
       </Router>

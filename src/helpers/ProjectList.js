@@ -2,6 +2,8 @@ import MentorMatcher from '../images/mm1.png';
 import TealEvents from '../assets/tealevents3.png';
 import AclaraONE from '../assets/aclarahero.png';
 import Lifegame from '../assets/lifegame.png';
+import RML from '../images/rml1.png';
+import RISCV from '../images/logism-o.png'
 
 export const ProjectList = [
     {
@@ -16,7 +18,7 @@ export const ProjectList = [
     },
     {
         name: "RISC-V",
-        image: Lifegame, 
+        image: RISCV, 
         path: "/riscv",
     },
     {
@@ -26,7 +28,7 @@ export const ProjectList = [
     },
     {
         name: "RML Interpreter",
-        image: Lifegame, 
+        image: RML, 
         path: "/interpreter",
     },
     {
