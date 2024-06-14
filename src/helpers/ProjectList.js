@@ -4,6 +4,7 @@ import AclaraONE from '../assets/aclarahero.png';
 import Lifegame from '../assets/lifegame.png';
 import RML from '../images/rml1.png';
 import RISCV from '../images/logism-o.png'
+import Typecheck from '../images/typecheck.png'
 
 export const ProjectList = [
     {
@@ -13,7 +14,7 @@ export const ProjectList = [
     },
     {
         name: "Type Checker for Simply Typed Lambda Calculus",
-        image: Lifegame, 
+        image: Typecheck, 
         path: "/typechecker",
     },
     {
@@ -34,7 +35,7 @@ export const ProjectList = [
     {
         name: "Life game - Frontend development",
         image: Lifegame, 
-        path: "/Lifegame",
+        path: "/lifegame",
     },
     {
         name: "AclaraONE Accessibility Audit",
@@ -44,11 +45,11 @@ export const ProjectList = [
     {
         name: "Mentor Matcher - UX Design",
         image: MentorMatcher,
-        path: "/MentorMatcher",
+        path: "/mentor-matcher",
     },
     {
         name: "TealEvents - UX Design",
         image: TealEvents,
-        path: "/TealEvents",
+        path: "/tealevents",
     }
 ]
