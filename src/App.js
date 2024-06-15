@@ -11,7 +11,6 @@ import AclaraONE from './pages/AclaraONE';
 import Lifegame from './pages/Lifegame';
 import Interpreter from './pages/Interpreter';
 import RISCV from './pages/RISC-V';
-import Farming from './pages/Farming';
 import TypeChecker from './pages/TypeChecker';
 import SpecTec from './pages/SpecTec';
 
@@ -29,8 +28,7 @@ function App() {
           <Route path="/mentor-matcher" element={<MentorMatcher />} />
           <Route path="/tealevents" element={<TealEvents />} />
           <Route path="/aclaraone" element={<AclaraONE />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/farming" element={<Farming />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/typechecker" element={<TypeChecker />} />
           <Route path="/spectec" element={<SpecTec />} />
         </Routes>

@@ -9,9 +9,9 @@ function AboutMe() {
             <h3 className="cassandra">Cassandra Sziklai</h3>
             <div className="container">
                 <p className="info">
-                    Hello! I'm a junior at Cornell University studying Computer Science who's
-                    interested in pursuing software engineering. I have experience in UX design
-                    as well, which is demonstrated in my case studies. I hope to one
+                    Hello! I'm a senior at Cornell University studying Computer Science who's
+                    interested in pursuing software engineering. I'm interested in
+                    programming languages (PL) and computer organization/systems. I hope to one
                     day work on software with an impact. Feel free to email me at cnsziklai@gmail.com.
                 </p>
                 <img className="me" src={profilePic} alt="Cassandra Sziklai" />
@@ -22,16 +22,20 @@ function AboutMe() {
                 <ul>
                     <li>Java</li>
                     <li>Python</li>
+                    <li>OCaml</li>
                     <li>HTML/CSS</li>
+                    <li>C</li>
                     <li>React</li>
                     <li>JavaScript</li>
                 </ul>
                 <ul>
+                    <li>GitHub</li>
+                    <li>D3.js</li>
                     <li>Figma</li>
                     <li>Adobe XD</li>
                     <li>LaTeX</li>
-                    <li>Handlebars.js</li>
-                    <li>MS Office Applications</li>
+                    <li>Logism</li>
+                    <li>Excel</li>
                 </ul>
             </div>
 

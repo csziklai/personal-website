@@ -5,11 +5,12 @@ import Lifegame from '../assets/lifegame.png';
 import RML from '../images/rml1.png';
 import RISCV from '../images/logism-o.png'
 import Typecheck from '../images/typecheck.png'
+import SpecTec from '../images/spectec.png'
 
 export const ProjectList = [
     {
         name: "SpecTec Proof of Concept",
-        image: Lifegame, 
+        image: SpecTec, 
         path: "/spectec",
     },
     {
@@ -21,11 +22,6 @@ export const ProjectList = [
         name: "RISC-V",
         image: RISCV, 
         path: "/riscv",
-    },
-    {
-        name: "Farming Simulation Game - OCaml",
-        image: Lifegame, 
-        path: "/farming",
     },
     {
         name: "RML Interpreter",
