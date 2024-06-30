@@ -31,7 +31,7 @@ function Spectec() {
 
       <p>Project duration: February 2024 - May 2024</p>
       <img src={spec} alt="diagram overview of Wasm SpecTec" />
-      <p className= "caption">Diagram overview of Wasm SpecTec</p>
+      <p className= "caption">Diagram overview of Wasm SpecTec (Breitner et al. 2023)</p>
       
       <h4><strong>Skills:</strong> SpecTec, formal semantics, LaTeX</h4>
     </div>

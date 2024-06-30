@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/AboutMe.css";
 import profilePic from "../assets/profilepic2.jpeg";
+import resume from "../assets/resume_june_2024.pdf"
 
 function AboutMe() { 
     return (
@@ -12,8 +13,10 @@ function AboutMe() {
                     Hello! I'm a senior at Cornell University studying Computer Science who's
                     interested in pursuing software engineering. I'm interested in
                     programming languages (PL) and computer organization/systems. I hope to one
-                    day work on software with an impact. Feel free to email me at cnsziklai@gmail.com.
+                    day work on software with an impact. 
+                    <p><a href = {resume} target = "_blank" rel="noreferrer">View my resume.</a></p>
                 </p>
+                
                 <img className="me" src={profilePic} alt="Cassandra Sziklai" />
             </div>
 

@@ -21,7 +21,7 @@ function RISCV() {
 
       <img src={risc} alt="screenshot of RISC-V processor in Logism" />
       <a href = {p2} target = "_blank" rel="noreferrer">View detailed design document</a>
-      <h4><strong>Skills:</strong> Logism, RISC-V, assembly language</h4>
+      <h4><strong>Skills:</strong> Digital logic circuits, Logism, RISC-V, assembly language</h4>
     </div>
   )
 }
