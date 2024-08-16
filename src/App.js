@@ -13,6 +13,7 @@ import Interpreter from './pages/Interpreter';
 import RISCV from './pages/RISC-V';
 import TypeChecker from './pages/TypeChecker';
 import SpecTec from './pages/SpecTec';
+import Research from './pages/Research';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/typechecker" element={<TypeChecker />} />
           <Route path="/spectec" element={<SpecTec />} />
+          <Route path="/research" element={<Research />} />
         </Routes>
         <Footer />
       </Router>

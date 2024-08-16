@@ -32,6 +32,11 @@ p, ul, h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-size: 1.1rem;
+    line-height: 125%;
+}
+
 .main {
     margin-left: 250px;
     margin-right: 250px;
