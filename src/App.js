@@ -14,6 +14,7 @@ import RISCV from './pages/RISC-V';
 import TypeChecker from './pages/TypeChecker';
 import SpecTec from './pages/SpecTec';
 import Research from './pages/Research';
+import FullStack from './pages/FullStack';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/typechecker" element={<TypeChecker />} />
           <Route path="/spectec" element={<SpecTec />} />
           <Route path="/research" element={<Research />} />
+          <Route path="/student-database" element={<FullStack />} />
         </Routes>
         <Footer />
       </Router>

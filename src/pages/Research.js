@@ -1,7 +1,6 @@
 import React from "react";
 import meandposter from "../images/meandposter.jpg";
 import poster2 from "../images/IMG_0879.PNG";
-import talkingposter from "../images/IMG_0882.PNG";
 import doc from "../assets/sziklai_final_poster.pdf";
 
 

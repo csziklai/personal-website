@@ -7,8 +7,14 @@ import RISCV from '../images/logism-o.png'
 import Typecheck from '../images/typecheck.png'
 import SpecTec from '../images/spectec.png'
 import Bure from '../images/IMG_0882.PNG'
+import StudentDB from '../assets/studentdb.jpg'
 
 export const ProjectList = [
+    {
+        name: "Student Database App",
+        image: StudentDB,
+        path: "/student-database",
+    },
     {
         name: "Research: A DSL for Packet Scheduling",
         image: Bure,

@@ -11,7 +11,7 @@ function Lifegame() {
             <p>Project duration: June 2023 – August 2023</p>
 
             <p>Go ahead and play for yourself, it'll only take a few minutes! <a href="https://playlifegame.netlify.app/" target="_blank" rel="noreferrer">Play life game.</a></p>
-            <img id="lifeg" src={lifegame} alt="life game start page" />
+            <img class="lifeg" src={lifegame} alt="life game start page" />
             <img src={youpicked} alt="screenshot of display showing that your career is mechanic" />
             <h4><strong>Skills:</strong> HTML, CSS, JavaScript, Handlebars.js</h4>
         </div>
