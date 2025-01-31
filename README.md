@@ -6,4 +6,4 @@ Since this was my first project in React, I drew from @machadop1407 's react per
 portfolio website for guidance (https://github.com/machadop1407/react-personal-portfolio-website).
 
 ## Launch
-To view the website, click [here](csziklai.com). To run the code, use the command "yarn start" after downloading the files and navigating to that directory.
+To view the website, click [here](https://csziklai.com/). To run the code, use the command "yarn start" after downloading the files and navigating to that directory.
