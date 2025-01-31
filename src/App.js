@@ -15,6 +15,7 @@ import TypeChecker from './pages/TypeChecker';
 import SpecTec from './pages/SpecTec';
 import Research from './pages/Research';
 import FullStack from './pages/FullStack';
+import Bignum from './pages/Bignum';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/spectec" element={<SpecTec />} />
           <Route path="/research" element={<Research />} />
           <Route path="/student-database" element={<FullStack />} />
+          <Route path="/bignum" element={<Bignum />} />
         </Routes>
         <Footer />
       </Router>

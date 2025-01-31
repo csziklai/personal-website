@@ -9,7 +9,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/cassandra-sziklai/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             <a href="https://github.com/csziklai" target="_blank" rel="noreferrer"><GitHubIcon /></a>
         </div>
-        <p> &copy; 2024 Cassandra Sziklai </p>
+        <p> &copy; 2025 Cassandra Sziklai </p>
     </div>;
 }
 

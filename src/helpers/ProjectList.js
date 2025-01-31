@@ -8,8 +8,14 @@ import Typecheck from '../images/typecheck.png'
 import SpecTec from '../images/spectec.png'
 import Bure from '../images/IMG_0882.PNG'
 import StudentDB from '../assets/studentdb.jpg'
+import Bignum from '../assets/bignum.jpeg'
 
 export const ProjectList = [
+    {
+        name: "Bignum Encryption",
+        image: Bignum,
+        path: "/bignum",
+    },
     {
         name: "Student Database App",
         image: StudentDB,
