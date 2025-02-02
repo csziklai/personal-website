@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/AboutMe.css";
 import profilePic from "../assets/profilepic2.jpeg";
-import resume from "../assets/resume_june_2024.pdf"
+import resume from "../assets/resume1_2025.pdf"
 
 function AboutMe() { 
     return (
@@ -10,11 +10,9 @@ function AboutMe() {
             <h3 className="cassandra">Cassandra Sziklai</h3>
             <div className="container">
                 <p className="info">
-                    Hello! I'm a senior at Cornell University studying Computer Science who's
-                    interested in pursuing software engineering. I'm interested in
-                    programming languages (PL) and computer organization/systems. I hope to one
-                    day work on software with an impact. 
-                    <p><a href = {resume} target = "_blank" rel="noreferrer">View my resume.</a></p>
+                Hello! I'm a senior at Cornell University studying Computer Science, passionate about software engineering, programming languages, and computer systems. I thrive on solving complex problems at the intersection of performance, efficiency, and scalability—whether it's optimizing low-level systems or refining high-level abstractions.
+                <p>
+                    <a href = {resume} target = "_blank" rel="noreferrer">View resume</a></p>
                 </p>
                 
                 <img className="me" src={profilePic} alt="Cassandra Sziklai" />
@@ -23,22 +21,11 @@ function AboutMe() {
             <h2>Skills</h2>
             <div className="skills-list">
                 <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>OCaml</li>
-                    <li>HTML/CSS</li>
-                    <li>C</li>
-                    <li>React</li>
-                    <li>JavaScript</li>
-                </ul>
-                <ul>
-                    <li>GitHub</li>
-                    <li>D3.js</li>
-                    <li>Figma</li>
-                    <li>Adobe XD</li>
-                    <li>LaTeX</li>
-                    <li>Logism</li>
-                    <li>Excel</li>
+                    <li><strong>Programming languages:</strong> Python, Java, C++/C, OCaml, JavaScript, HTML/CSS</li>
+                    <li><strong>Frameworks:</strong> Spring Boot, React.js, Java Persistence API (JPA), Maven, D3.js, Handlebars.js</li>
+                    <li><strong>Tools:</strong> GitHub, Linux, SQL, LaTeX, Logism, Excel</li>
+                    <li><strong>Misc: </strong>Systems Programming, Algorithm Optimization, Profiling & Benchmarking</li>
+
                 </ul>
             </div>
 

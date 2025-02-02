@@ -7,7 +7,7 @@
     width: 100%;
     position: relative;
     margin-left: 100px;
-    top: -80px;
+    top: -60px;
     max-width: 300px;
     height: auto;
 }
@@ -56,6 +56,8 @@ p, ul, h3 {
 .skills-list {
     display: flex;
     justify-content: space-evenly;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 
 
