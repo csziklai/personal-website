@@ -1,9 +1,7 @@
 # My Portfolio Website
 
 ## Project Description
-This website was created to highlight my projects. I created it using React.js.
-Since this was my first project in React, I drew from @machadop1407 's react personal
-portfolio website for guidance (https://github.com/machadop1407/react-personal-portfolio-website).
+This website was created using React.js to highlight my computer science projects.
 
 ## Launch
-To view the website, click [here](https://csziklai.com/). To run the code, use the command "yarn start" after downloading the files and navigating to that directory.
+To view the website, click [here](https://csziklai.com/). To run the code, use the command `yarn start` after downloading the files and navigating to that directory.
