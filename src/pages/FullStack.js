@@ -37,6 +37,8 @@ After teaching myself backend development, this project was an invaluable exerci
       <img class="lifeg" src={addstudent} alt="add student page" />
       <p><strong>Skills: </strong>Spring Boot, React.js, MySQL, XAMMP, MUI, backend, frontend</p>
 
+      <p><a href="https://github.com/csziklai/Database-app" target="_blank" rel="noreferrer">View on GitHub</a>.</p>
+
       
     </div>
   )

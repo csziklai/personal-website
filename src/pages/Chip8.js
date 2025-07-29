@@ -34,6 +34,8 @@ function Chip8() {
                 instruction decoding, and graphics rendering.
             </p>
             <p><strong>Skills: </strong>C++, GLUT</p>
+            <p><a href="https://github.com/csziklai/chip8-emulator" target="_blank" rel="noreferrer">View on GitHub</a>.</p>
+
         </div>
     );
 }

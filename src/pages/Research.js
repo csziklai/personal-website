@@ -56,6 +56,8 @@ The second part I spent developing Rio, our domain specific language (DSL). I us
     </p>
 
       <p>Project duration: June 2024 - August 2024</p>
+      <p><a href="https://github.com/calyxir/calyx" target="_blank" rel="noreferrer">View the Calyx repo on GitHub</a>.</p>
+      <p><a href="https://github.com/cucapra/packet-scheduling" target="_blank" rel="noreferrer">View the Packet Scheduling repo on GitHub</a>.</p>
       <img src={meandposter} alt="Author standing with poster" style={{ width: "40%" }} />
       <img src={poster2} alt="Author and Anshuman Mohan with poster" style={{ width: "40%" }} />
       <p className= "caption">In front of my poster (left). With graduate student Anshuman Mohan (right).</p>
