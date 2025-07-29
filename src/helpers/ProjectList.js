@@ -9,8 +9,14 @@ import SpecTec from '../images/spectec.png'
 import Bure from '../images/IMG_0882.PNG'
 import StudentDB from '../assets/studentdb.jpg'
 import Bignum from '../assets/bignum.jpeg'
+import Chip8 from '../images/chip83.png'
 
 export const ProjectList = [
+    {
+        name: "CHIP-8 Emulator",
+        image: Chip8,
+        path: "/chip8",
+    },
     {
         name: "Bignum Encryption",
         image: Bignum,

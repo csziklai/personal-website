@@ -16,6 +16,7 @@ import SpecTec from './pages/SpecTec';
 import Research from './pages/Research';
 import FullStack from './pages/FullStack';
 import Bignum from './pages/Bignum';
+import Chip8 from './pages/Chip8';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/research" element={<Research />} />
           <Route path="/student-database" element={<FullStack />} />
           <Route path="/bignum" element={<Bignum />} />
+          <Route path="/chip8" element={<Chip8 />} />
         </Routes>
         <Footer />
       </Router>
